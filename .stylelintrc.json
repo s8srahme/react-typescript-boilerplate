@@ -1,0 +1,12 @@
+{
+	"plugins": ["stylelint-order"],
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-styled-components",
+		"stylelint-prettier/recommended",
+		"stylelint-config-rational-order"
+	],
+	"rules": {
+		"comment-empty-line-before": "never"
+	}
+}
