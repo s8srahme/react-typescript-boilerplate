@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 
@@ -11,11 +9,14 @@
 /build
 
 # misc
+/.vscode
+
 .DS_Store
 .env.development
-.env.test
+.env.staging
 .env.production
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock

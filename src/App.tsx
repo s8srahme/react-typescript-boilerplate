@@ -3,7 +3,7 @@ import React from "react";
 import { AppHeader, AppLink, AppLogo, AppPara, AppWrapper } from "App.style";
 import logo from "logo.svg";
 
-function App(): JSX.Element {
+export function App(): JSX.Element {
 	return (
 		<AppWrapper>
 			<AppHeader>
@@ -23,5 +23,3 @@ function App(): JSX.Element {
 		</AppWrapper>
 	);
 }
-
-export default App;

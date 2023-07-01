@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React TypeScript Boilerplate
 
-## Available Scripts
+A starter boilerplate for web app front-end using React and TypeScript.
 
-In the project directory, you can run:
+## What is inside?
 
-### `npm start`
+This project uses lot of stuff, such as:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Docz](https://www.docz.site/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+#### Clone repo:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone --depth 1 --branch master git@github.com:s8srahme/react-typescript-boilerplate.git [YOUR_PROJECT_NAME]
+```
 
-### `npm run build`
+#### Install dependencies:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd [YOUR_PROJECT_NAME]
+nvm use
+npm install
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Start development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run dev
+```
 
-### `npm run eject`
+Now you're ready to rumble!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Scripts
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Description                                                                     | Command                  |
+| :------------------------------------------------------------------------------ | :----------------------- |
+| Start development server                                                        | `dev`                    |
+| Serve production build                                                          | `start`                  |
+| Create production build                                                         | `build`                  |
+| Allow customizing `Create React App` configuration and scripts                  | `eject`                  |
+| Launch test runner                                                              | `test`                   |
+| Launch test runner in interactive watch mode                                    | `test:watch`             |
+| Generate code coverage report                                                   | `test:coverage`          |
+| Open code coverage report                                                       | `test:open-coverage`     |
+| Analyze code to find problems                                                   | `lint:check`             |
+| Fix JS & TS code problems automatically                                         | `lint:fix`               |
+| Check if JS & TS code conforms to a consistent style                            | `prettier:check`         |
+| Format files to conform to a consistent style                                   | `prettier:format`        |
+| Fix CSS syntax errors                                                           | `stylelint:fix`          |
+| Check CSS syntax errors                                                         | `stylelint:check-css`    |
+| Check if Stylelint configuration contains any rules that conflict with Prettier | `stylelint:check-config` |
+| Start Docz development server                                                   | `docz:dev`               |
+| Create Docz build                                                               | `docz:build`             |
+| Serve Docz build                                                                | `docz:serve`             |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Deploy
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+WIP
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the MIT license, Copyright (c) 2023 Sabbir Ahmed. For more information see `LICENSE.md`.
